@@ -1,4 +1,4 @@
-package com.example.examenfinalkotlin.ui.theme
+package com.example.examenfinalkotlin.ui.theme.theme
 
 import androidx.compose.ui.graphics.Color
 
