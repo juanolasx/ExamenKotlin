@@ -16,7 +16,7 @@ import com.example.examenfinalkotlin.data.Model.Post
 
 @Composable
 fun PostItem(Post: Post, onClick: (Post) -> Unit) {
-    // Usamos `Card` para mostrar el post
+    // Usamos "Card" para mostrar el post
     Card(
         modifier = Modifier
             .fillMaxWidth()

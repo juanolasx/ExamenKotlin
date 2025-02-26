@@ -20,4 +20,4 @@ class DeletePost {
             }
         }
     }
-}
+}//ESTA CLASE Y ESTE DELETE NO FUNCIONA =(

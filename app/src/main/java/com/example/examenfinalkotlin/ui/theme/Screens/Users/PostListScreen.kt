@@ -11,13 +11,13 @@ import com.example.examenfinalkotlin.ui.theme.Components.PostItem
 
 @Composable
 fun PostListScreen(onPostClick: (Post) -> Unit, Posts: List<Post>?) {
-    // Si no hemos recibido la lista de países, mostramos un cargador
+    // Si no hemos recibido la lista de posts, mostramos un cargador
     if (Posts == null) {
         CircularProgressIndicator(modifier = Modifier.fillMaxSize())
     }  else {
         LazyColumn(modifier = Modifier.fillMaxSize()) {
             items(Posts!!) { Post ->
-                // Aseguramos que onClick se pase correctamente a cada CountryItem
+                // Aseguramos que onClick se pase correctamente a cada PostItem
                 PostItem(Post = Post, onClick = { onPostClick(Post) })
             }
         }

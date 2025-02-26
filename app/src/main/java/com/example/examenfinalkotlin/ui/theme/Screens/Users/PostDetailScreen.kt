@@ -26,6 +26,7 @@ fun PostDetailScreen(post: Post) {
 
     //esta parte de aqui es para cuando pinches y vayas a la pestaña con detalles
         //te muestre el userid,el title. el id y el body/cuerpo
+        //pongo los spacer para que haya hueco entre ellos por que si no queda muy junto y no se lee
         Spacer(modifier = Modifier.height(16.dp))
         Text(text = "-USER ID: ${post.userid}", style = MaterialTheme.typography.bodyMedium)
         Spacer(modifier = Modifier.height(16.dp))
